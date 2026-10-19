@@ -19,14 +19,15 @@
             flex flex-col lg:flex-row">
 
         <!--  PANEL IZQUIERDO  -->
-        <section class="hidden md:flex h-full w-full lg:w-[50%]
-                        bg-gradient-to-br
-                        from-[#28675f]
-                        to-[#397d74]
-                        min-h-[500px] 
-                        lg:min-h-[calc(100vh-0px)]
-                        flex flex-col items-center justify-center
-                        text-white px-8">
+        <section class="hidden md:flex w-full lg:w-[50%]
+                min-h-[800px] 
+                lg:min-h-[calc(100vh-0px)]
+                bg-[#397d74]
+                flex flex-col
+                items-center
+                justify-center
+                px-8
+                text-white">
 
             <!-- IMAGEN -->
             <div class="mb-7">
@@ -53,7 +54,7 @@
 
 
             <!-- REDES SOCIALES -->
-            <div class="flex gap-5 mt-8">
+            <div class="flex gap-6 mt-8">
 
                 <!-- FACEBOOK -->
                 <a href="https://www.facebook.com/share/1DoAgb7uV8/" class="w-10 h-10
@@ -101,94 +102,105 @@
 
 
         <!--  PANEL DERECHO  -->
-        <section class="relative w-full lg:w-[50%]
-                        min-h-[800px]
-                        overflow-hidden
-                        bg-gradient-to-br
-                        from-[#40565d]
-                        via-[#627c82]
-                        to-[#a2b8bc]
-                        flex items-center justify-center">
+        <section class="relative 
+                w-full lg:w-[50%]
+                min-h-[800px]
+                overflow-hidden
+                bg-gradient-to-br
+                from-[#3c5359]
+                via-[#668187]
+                to-[#a5babd]
+                flex items-center
+                justify-center">
 
 
             <!-- FIGURAS DECORATIVAS -->
 
             <div class="absolute
-                        w-[8px] h-[210px]
-                        bg-[#3b806f]
-                        rounded-full
-                        top-0 left-[25%]
-                        rotate-[7deg]">
+                    top-0 left-[25%]
+                    w-[8px] h-[210px]
+                    bg-[#397a6c]
+                    rounded-full
+                    rotate-[7deg]">
             </div>
 
 
             <div class="absolute
-                        w-[90px] h-[8px]
-                        bg-[#66bba5]
-                        rounded-full
-                        top-[12%] right-[10%]
-                        rotate-[7deg]">
+                    top-[12%] right-[9%]
+                    w-[100px] h-[8px]
+                    bg-[#65bea9]
+                    rounded-full
+                    rotate-[7deg]">
             </div>
 
 
             <div class="absolute
-                        w-[8px] h-[190px]
-                        bg-[#66bba5]
-                        top-[14%] right-[10%]
-                        rotate-[-28deg]">
+                    top-[14%] right-[9%]
+                    w-[8px] h-[180px]
+                    bg-[#65bea9]
+                    rotate-[-28deg]">
             </div>
 
 
             <div class="absolute
-                        w-[8px] h-[160px]
-                        bg-[#66bba5]
-                        top-[25%] right-[15%]
-                        rotate-[-38deg]">
+                    top-[27%] right-[14%]
+                    w-[8px] h-[150px]
+                    bg-[#65bea9]
+                    rotate-[-38deg]">
             </div>
 
 
             <div class="absolute
-                        w-[120px] h-[8px]
-                        bg-[#66bba5]
-                        rounded-full
-                        bottom-[15%] left-[15%]
-                        rotate-[5deg]">
+                    bottom-[24%] left-[12%]
+                    w-[100px] h-[8px]
+                    bg-[#65bea9]
+                    rounded-full
+                    rotate-[5deg]">
             </div>
 
 
             <div class="absolute
-                        w-[8px] h-[140px]
-                        bg-[#3d7468]
-                        bottom-0 left-[22%]
-                        rotate-[-2deg]">
+                    bottom-0 left-[22%]
+                    w-[8px] h-[150px]
+                    bg-[#39786c]
+                    rotate-[-2deg]">
+            </div>
+
+
+            <div class="absolute
+                    bottom-[10%] right-[8%]
+                    w-[130px] h-[8px]
+                    bg-[#65bea9]
+                    rounded-full
+                    rotate-[8deg]">
             </div>
 
 
 
-            <!--  LOGIN  -->
-            <div class=" relative z-10
-                        
-                        bg-white
-                        rounded-2xl
-                        shadow-2xl
-                        px-6 py-7">
+            <!--  FORMULARIO  -->
+            <div class="relative z-10
+                    w-[90%] max-w-[400px]
+                    bg-white
+                    rounded-2xl
+                    shadow-2xl
+                    px-5 py-6 gap-4
+                    flex flex-col">
+
 
                 <!-- TITULO -->
                 <h1 class="text-center
                         text-[#34484d]
                         text-4xl
                         font-bold
-                        mb-6">
+                        mb-5">
 
-                    LOGIN
+                    Iniciar Sesión
 
                 </h1>
 
 
-                <!-- FORMULARIO -->
-                <form class="space-y-5
-                            w-[90%] max-w-[500px]">
-                    
+                <form class="space-y-3">
+
 
                     <!-- CORREO -->
                     <div>
@@ -201,13 +213,13 @@
 
                         </label>
 
-                        <input type="email" placeholder="ejemplo@correo.com" class="w-full
+                        <input type="email" placeholder="ejemplo@correo.com" required class="w-full
                                 h-9
                                 border
                                 border-[#54b3a5]
                                 rounded-lg
                                 px-3
-                                text-xl
+                                text-[15px]
                                 outline-none
                                 focus:ring-2
                                 focus:ring-[#54b3a5]">
@@ -219,7 +231,7 @@
                     <div>
 
                         <label class="block
-                                text-gray-700
+                                text-gray-800
                                 mb-1">
 
                             Contraseña
